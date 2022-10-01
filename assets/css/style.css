@@ -1,0 +1,243 @@
+body {
+    
+}
+
+#logo {
+    margin-left: 2em;
+}
+
+#logoTxt {
+    font-size: 20px;
+    color: white;
+}
+
+.video-container {
+    height: 770px;
+    width: 100%;
+    position: relative;
+}
+
+.video-container video {
+  width: 100% !important;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative !important;
+  padding: 2em;
+}
+
+/*
+#vid {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 480px;
+    z-index: -1 !important;
+}
+
+#videoGraphic {
+    width: 100% !important;
+    height: 480px;
+    object-fit: cover !important; 
+    object-position: center center !important;
+    top: 0 !important;
+}
+*/
+
+.navbar-nav {
+    margin-left: auto !important;
+    margin-right: 4em;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 20px !important;
+}
+
+#firstSecT {
+    margin-top: 1em !important;
+}
+
+#sectText1L {
+    padding-top: 1em;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+#sectOneT {
+    font-weight: bolder;
+    font-size: 34px;
+    margin-bottom: 1em;
+    color: white;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+}
+
+.titleText {
+    font-weight: bold;
+    font-size: 34px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#s1border {
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 10px;
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-bottom: 7em;
+    padding-top: 6em;
+}
+
+#secondSect {
+    padding: 2em;
+    height: 650px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-image: url('/assets/images/papers.co-vt20-abstract-line-digital-white-bw-pattern-35-3840x2160-4k-wallpaper.jpg');
+}
+
+.secondText {
+    color: black;
+    font-size: 18px;
+}
+
+#secondR {
+    padding-left: 18em;
+    padding-right: 18em;
+    margin-bottom: 8em;
+}
+
+#secondR2 {
+}
+
+#thirdSect {
+    padding: 2em;
+    height: auto;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-image: url('/assets/images/1682038.jpg');
+}
+
+#thirdTi {
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    padding-bottom: 1em;
+    font-weight: bold;
+}
+
+#thirdT {
+    padding-left: 8em;
+}
+
+#thirdP {
+    text-indent: 2em;
+}
+
+#thirdR {
+    padding-top: 14em;
+    padding-bottom: 8em;
+}
+
+#fourthSect {
+    height: auto;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-image: url('/assets/images/abstract-white-pattern-cube-square-minimalism-1924615-wallhere.com.jpg');
+    padding-bottom: 4em;
+}
+
+#fourthR {
+    padding-left: 22em;
+    padding-right: 22em;
+    padding-bottom: 6em;
+}
+
+#fourthR2 {
+    background-color: rgba(255, 255, 255, 0.90);
+    padding-top: 2em;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.575)!important;
+}
+
+.fourthT {
+    font-size: 18px;
+}
+
+.fourthQ {
+    font-weight: bold;
+}
+
+.fourthA {
+    font-weight: normal;
+}
+
+.img-shadow {
+    box-shadow: 25px 25px rgba(255, 255, 255, 0.85);
+    border: 1px solid white;
+    width: 600px;
+    height: auto;
+}
+
+.img-shadow-faq {
+    box-shadow: 15px 15px 5px rgba(82, 82, 82, 1);
+}
+
+.card-img-top {
+    padding-top: 2em;
+    width: 100px !important;
+    height: auto;
+}
+
+.card-text {
+    font-size: 24px;
+    padding-bottom: 1em;
+    line-height: 1;
+    color: white;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.card{
+    border-radius: 0px !important;
+    background-image: url("/assets/images/milad-fakurian-VbC-EiOTDqA-unsplash.jpg") !important;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+    background-image: linear-gradient(180deg, rgb(32, 32, 32), rgb(255, 255, 255));
+    width: 18rem;
+    height: auto;
+    margin: 1em;
+    border: 1px solid white !important;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    /*background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(32, 32, 32));
+    color: white;*/
+    box-shadow: 0 1rem 3rem rgba(41, 40, 40, 0.875)!important;
+}
