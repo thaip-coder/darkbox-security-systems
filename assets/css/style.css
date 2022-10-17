@@ -305,3 +305,58 @@ nav {
     color: white;*/
     box-shadow: 0 1rem 3rem rgba(41, 40, 40, 0.875)!important;
 }
+
+/* --------------- Section 9 --------------- */
+#s9 {
+}
+
+#s9Bg {
+    background-color: rgb(30,30,30);
+}
+
+#s9Title {
+    font-weight: bold;
+    margin-bottom: 3em;
+    font-size: 20px;
+}
+
+#s9Text {
+    text-align: center;
+    color: white;
+    padding-top: 4em;
+    padding-bottom: 3em;
+}
+
+/* --------------- Footer --------------- */
+#footer {
+    text-align: center;
+    color: white;
+}
+
+#footerLink:hover {
+    text-decoration: none !important;
+}
+
+.footerImg {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.address {
+    padding-right: 3em;
+}
+
+#addTitle {
+    padding-bottom: 1em;
+}
+
+#contactInfo {
+    color: white;
+    padding-top: 4em;
+    background-color: black;
+}
+
+#fAlign {
+    padding-top: 1.25em;
+}
