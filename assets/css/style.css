@@ -318,6 +318,9 @@ nav {
 
 #s9Bg {
     background-color: rgb(30,30,30);
+    -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px -4px 9px rgba(50, 50, 50, 0.75);
 }
 
 #s9Title {
@@ -334,6 +337,12 @@ nav {
 }
 
 /* --------------- Footer --------------- */
+#tFooter {
+    -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px -4px 9px rgba(50, 50, 50, 0.75);
+}
+
 #footer {
     text-align: center;
     color: white;
