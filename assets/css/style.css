@@ -178,7 +178,7 @@ nav {
 #srImg {
     border: 1px solid black;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.575)!important;
-    width: aut0;
+    width: auto;
     height: 400px;
 }
 
