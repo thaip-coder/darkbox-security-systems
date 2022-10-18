@@ -90,9 +90,13 @@ nav {
 
 .titleText {
     font-weight: bold;
-    font-size: 34px;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    font-size: 54px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: black;
+    color: white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 #s1border {
@@ -198,7 +202,6 @@ nav {
     text-align: center;
     font-size: 34px;
     padding-top: 1em;
-    padding-bottom: 1em;
     font-weight: bold;
 }
 
@@ -235,7 +238,7 @@ nav {
     padding-right: 4em;
     padding-top: 4em;
     padding-bottom: 2em;
-    background-color: rgba(255, 255, 255, 0.90);
+    background-color: rgba(0, 0, 0, 0.90);
     border: 1px solid rgb(0, 0, 0);
     box-shadow: 0 1rem 3rem rgba(0,0,0,.575)!important;
 }
@@ -246,11 +249,13 @@ nav {
 
 .fourthQ {
     font-weight: bold;
+    color: white;
 }
 
 .fourthA {
     font-weight: normal;
     margin-top: 1em;
+    color: white;
 }
 
 .img-shadow {
@@ -275,14 +280,15 @@ nav {
     padding-left: 2em;
     padding-right: 2em;
     color: white;
+    text-align: center;
 }
 
-#footer {
+/*#footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 1em;
-}
+}*/
 
 .card{
     border-radius: 0px !important;
@@ -331,6 +337,7 @@ nav {
 #footer {
     text-align: center;
     color: white;
+    background-color: black;
 }
 
 #footerLink:hover {
@@ -359,4 +366,29 @@ nav {
 
 #fAlign {
     padding-top: 1.25em;
+}
+
+/* --------------- Privacy --------------- */
+#s8pp {
+    background: rgb(30,30,30);
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+.ppSection {
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+#ppSectionTitle {
+    font-size: 44px;
+    font-variant: small-caps;
+    padding-bottom: 0.5em;
+    padding-top: 0.25em;
+}
+
+.ppp {
+    padding-left: 1em;
+    padding-right: 1em;
 }
