@@ -13,7 +13,7 @@ body {
 }
 
 .video-container {
-    height: 770px;
+    height: 950px;
     width: 100%;
     position: relative;
 }
@@ -70,13 +70,12 @@ nav {
 }
 
 #firstSecT {
-    margin-top: 1em !important;
+    margin-top: 6em !important;
 }
 
 #sectText1L {
-    padding-top: 1em;
     font-size: 50px;
-    line-height: 1.2;
+    line-height: 1.5;
     font-weight: bold;
 }
 
@@ -181,7 +180,12 @@ nav {
     height: auto;
 }
 
+#secondSTitle {
+
+}
+
 #secondR2 {
+    
 }
 
 .pillar {
@@ -263,6 +267,10 @@ nav {
     font-weight: normal;
     margin-top: 1em;
     color: white;
+}
+
+#faqTitle {
+    margin-top: 2em;
 }
 
 .img-shadow {
