@@ -147,7 +147,7 @@ nav {
 
 #secondSect {
     padding: 2em;
-    height: 900px;
+    height: 960px;
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -157,6 +157,7 @@ nav {
 .secondText {
     color: black;
     font-size: 28px;
+    line-height: 1.6;
 }
 
 #secondR {
@@ -170,14 +171,15 @@ nav {
     background-color: rgba(255, 255, 255, 0.90);
     border: 1px solid rgb(0, 0, 0);
     box-shadow: 0 1rem 3rem rgba(0,0,0,.575)!important;
-    padding: 2em;
+    padding: 3em;
+    height: 400px;
 }
 
 #srImg {
     border: 1px solid black;
     box-shadow: 0 1rem 3rem rgba(0,0,0,.575)!important;
-    width: 500px;
-    height: auto;
+    width: aut0;
+    height: 400px;
 }
 
 #secondSTitle {
