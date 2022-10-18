@@ -65,6 +65,10 @@ nav {
     font-size: 20px !important;
 }
 
+.nav-link:hover {
+    text-shadow: 0 0 3px white;
+}
+
 #firstSecT {
     margin-top: 1em !important;
 }
@@ -81,6 +85,7 @@ nav {
     font-size: 34px;
     margin-bottom: 1em;
     color: white;
+    text-decoration: underline;
 }
 
 .text {
@@ -95,8 +100,10 @@ nav {
     margin-bottom: 1em;
     background-color: black;
     color: white;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    padding-bottom: 0.1em;
+    border-radius: 40px 10px 40px 10px;
 }
 
 #s1border {
