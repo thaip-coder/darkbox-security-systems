@@ -31,8 +31,8 @@
     </head>
     <body>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" id="logo" href="#"><img src="assets/images/DarkBoxWhiteBackgroundLogoCutOut.png" width="60" height="60" class="d-inline-block align-top" alt="">
+      <nav class="navbar navbar-expand-lg navbar-light" style="border-bottom: 1px solid grey;">
+        <a class="navbar-brand" id="logo" href="index.html"><img src="assets/images/DarkBoxWhiteBackgroundLogoCutOut.png" width="60" height="60" class="d-inline-block align-top" alt="">
             <span class="d-inline-block align-top" id="logoTxt">DarkBox Security<br>Systems</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,18 +48,19 @@
               <a class="nav-link" href="#">Features</a>
             </li>-->
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
 
       <!-- Contact Form -->
-      <div class="container">
+      <div class="container" id="formCont">
         <div class="row">
-            <div class="col">
-                <p id="s8LeftTitle">CONTACT US</p>
-                <p id="s8p1">At Juris Disputes & Investigations, our clients are our priority. Get in touch today to find out how we can help you with your next investigation.</p>
+            <!-- Contact Info -->
+            <div class="col-md" id="contLeft">
+                <p id="contactTitle">CONTACT US</p>
+                <p id="">At Juris Disputes & Investigations, our clients are our priority. Get in touch today to find out how we can help you with your next investigation.</p>
                 <br>
                 <p><b>Texas Private Investigations License A15789201</b><br>Texas Process Server PSC-19627<br>Texas Notary</p>
                 <br>
@@ -71,8 +72,37 @@
                 <br>
                 <p><b>972-674-1123</b></p>
             </div>
-            <div class="col">
-                
+            <!-- Form -->
+            <div class="col-md d-flex justify-content-center align-items-center">
+                <form>
+                    <div class="form-row input-group">
+                        <div class="form-group col-md">
+                            <label for="inputEmail4">First Name</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="First">
+                        </div>
+                        <div class="form-group col-md">
+                            <label for="inputPassword4">Last Name</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Last">
+                        </div>
+                    </div>
+                    <div class="form-row input-group">
+                        <div class="form-group col-md">
+                            <label for="inputEmail4">Email Address</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md">
+                            <label for="inputPassword4">Phone Number</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Phone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Message:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <div id="contBtnDiv">
+                        <button type="submit" class="btn btn-primary" id="contBtn">Submit</button>
+                    </div>
+                </form>
             </div>
         </div>
       </div>

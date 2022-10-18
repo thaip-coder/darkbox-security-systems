@@ -418,3 +418,50 @@ nav {
     padding-left: 1em;
     padding-right: 1em;
 }
+
+/* --------------- Contact --------------- */
+#contLeft {
+    color: white;
+    text-align: center;
+}
+
+#contactTitle {
+    color: white;
+    font-size: 32px;
+}
+
+form {
+    border: 1px solid white;
+    padding: 4em;
+    color: white;
+    border-radius: 10px;
+}
+
+.form-group {
+    padding: 1em;
+}
+
+#contBtnDiv {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#contBtn {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+#contBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+#formCont {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
