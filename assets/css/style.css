@@ -162,10 +162,19 @@ nav {
     border: 1px solid white !important;
     padding: 1em !important;
     text-align: center !important;
+    cursor: pointer !important;
 }
 
 .datepicker {
     text-align: center;
+}
+
+.datepicker-days table tbody tr td {
+    padding: 0.3em !important;
+}
+
+.datepicker-days table tbody tr td:hover {
+    text-shadow: 0 0 10px white;
 }
 
 /*---------- Announcement ----------*/
