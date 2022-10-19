@@ -69,6 +69,7 @@ nav {
     text-shadow: 0 0 3px white;
 }
 
+/*---------- First Section ----------*/
 #firstSecT {
     margin-top: 6em !important;
 }
@@ -114,6 +115,12 @@ nav {
     padding-top: 6em;
 }
 
+/*---------- Modal Section ----------*/
+.modal-backdrop {
+    z-index: -1 !important;
+}
+
+/*---------- Announcement ----------*/
 #aSec {
     padding: 6em;
     height: auto;
@@ -145,6 +152,7 @@ nav {
     height: auto;
 }
 
+/*---------- Second Section ----------*/
 #secondSect {
     padding: 2em;
     height: 960px;
@@ -201,6 +209,8 @@ nav {
     padding-left: 0.75em;
 }
 
+
+/*---------- Third Section ----------*/
 #thirdSect {
     padding: 2em;
     height: auto;
@@ -231,6 +241,7 @@ nav {
     padding-bottom: 8em;
 }
 
+/*---------- Fourth Section ----------*/
 #fourthSect {
     height: auto;
     background-position: center !important;
@@ -275,6 +286,7 @@ nav {
     margin-top: 2em;
 }
 
+/*---------- Card Section ----------*/
 .img-shadow {
     box-shadow: 25px 25px rgba(255, 255, 255, 0.85);
     border: 1px solid white;

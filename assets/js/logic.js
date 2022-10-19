@@ -20,3 +20,8 @@ $(document).ready(function() {
     $(".back").css("height", highest);
     $(absoluteSide).css("position", "absolute");
   });
+
+
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
