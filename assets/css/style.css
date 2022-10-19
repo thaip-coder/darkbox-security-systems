@@ -120,6 +120,35 @@ nav {
     z-index: -1 !important;
 }
 
+#expertSupport {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.supportFormc {
+    margin-bottom: 1em;
+}
+
+.modal-footer {
+    justify-content: center !important;
+}
+
+#expertSTxt {
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em;
+}
+
+#espForm {
+    border: 0px !important;
+}
+
+.modal-body {
+    padding-top: 0 !important;
+}
+
 /*---------- Announcement ----------*/
 #aSec {
     padding: 6em;
