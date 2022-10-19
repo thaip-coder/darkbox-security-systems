@@ -135,9 +135,8 @@ nav {
 }
 
 #expertSTxt {
-    text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
     padding-top: 2em;
 }
 
@@ -151,7 +150,10 @@ nav {
 }
 
 #consultModal {
-    padding-top: 2em !important;
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+    padding-left: 2em !important;
+    padding-right: 2em !important;
 }
 
 .datepicker-dropdown {
@@ -160,6 +162,10 @@ nav {
     border: 1px solid white !important;
     padding: 1em !important;
     text-align: center !important;
+}
+
+.datepicker {
+    text-align: center;
 }
 
 /*---------- Announcement ----------*/
