@@ -331,12 +331,14 @@ nav {
 .fourthQ {
     font-weight: bold;
     color: white;
+    list-style-type: "»  ";
 }
 
 .fourthA {
     font-weight: normal;
     margin-top: 1em;
     color: white;
+    list-style-type: "-  ";
 }
 
 #faqTitle {
