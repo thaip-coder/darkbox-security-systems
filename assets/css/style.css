@@ -154,6 +154,14 @@ nav {
     padding-top: 2em !important;
 }
 
+.datepicker-dropdown {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid white !important;
+    padding: 1em !important;
+    text-align: center !important;
+}
+
 /*---------- Announcement ----------*/
 #aSec {
     padding: 6em;
