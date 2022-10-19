@@ -143,10 +143,15 @@ nav {
 
 #espForm {
     border: 0px !important;
+    padding: 1em !important;
 }
 
 .modal-body {
     padding-top: 0 !important;
+}
+
+#consultModal {
+    padding-top: 2em !important;
 }
 
 /*---------- Announcement ----------*/

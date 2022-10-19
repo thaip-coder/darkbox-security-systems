@@ -22,6 +22,12 @@ $(document).ready(function() {
   });
 
 
-  $('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')
-  })
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
+
+$(function(){
+  $('.datepicker').datepicker({
+      format: 'mm-dd-yyyy'
+    });
+});
