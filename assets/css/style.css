@@ -184,7 +184,7 @@ nav {
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-image: url('/darkbox-security-systems/assets/images/ricardo-gomez-angel-9AdeEdYB2yk-unsplash.jpg');
+    background-image: url('/assets/images/ricardo-gomez-angel-9AdeEdYB2yk-unsplash.jpg');
 }
 
 #ann {
@@ -216,7 +216,7 @@ nav {
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-image: url('/darkbox-security-systems/assets/images/paperb2.jpg');
+    background-image: url('/assets/images/paperb2.jpg');
 }
 
 .secondText {
@@ -275,7 +275,7 @@ nav {
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-image: url('/darkbox-security-systems/assets/images/1682038.jpg');
+    background-image: url('/assets/images/1682038.jpg');
 }
 
 #thirdTi {
@@ -305,7 +305,7 @@ nav {
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-image: url('/darkbox-security-systems/assets/images/abstract-white-pattern-cube-square-minimalism-1924615-wallhere.com.jpg');
+    background-image: url('/assets/images/abstract-white-pattern-cube-square-minimalism-1924615-wallhere.com.jpg');
     padding-bottom: 4em;
 }
 
@@ -381,7 +381,7 @@ nav {
 
 .card {
     border-radius: 0px !important;
-    background-image: url("/darkbox-security-systems/assets/images/milad-fakurian-VbC-EiOTDqA-unsplash.jpg") !important;
+    background-image: url("/assets/images/milad-fakurian-VbC-EiOTDqA-unsplash.jpg") !important;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
       transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
     background-image: linear-gradient(180deg, rgb(32, 32, 32), rgb(255, 255, 255));
@@ -536,4 +536,566 @@ form {
     margin-bottom: 6em;
     padding-top: 4em;
     padding-bottom: 4em;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #logo {
+        margin-left: 2em;
+    }
+    
+    #logoTxt {
+        font-size: 22px;
+        color: white;
+        font-family: 'Iceland', cursive !important;
+    }
+    
+    .video-container {
+        height: 400px;
+        width: 100%;
+        position: relative;
+    }
+    
+    .video-container video {
+      width: 100% !important;
+      height: 100%;
+      position: absolute;
+      object-fit: cover;
+      z-index: 0;
+    }
+    
+    /* Just styling the content of the div, the *magic* in the previous rules */
+    .video-container .caption {
+      z-index: 1;
+      position: relative !important;
+      padding: 2em;
+    }
+    
+    /*
+    #vid {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 480px;
+        z-index: -1 !important;
+    }
+    
+    #videoGraphic {
+        width: 100% !important;
+        height: 480px;
+        object-fit: cover !important; 
+        object-position: center center !important;
+        top: 0 !important;
+    }
+    */
+    
+    .navbar-nav {
+        margin-left: auto !important;
+        margin-right: 0px;
+    }
+    
+    nav {
+        background-color: rgba(0, 0, 0, 0.65);
+    }
+    
+    .nav-link {
+        color: white !important;
+        font-size: 20px !important;
+        text-align: center;
+    }
+    
+    .nav-link:hover {
+        text-shadow: 0 0 3px white;
+    }
+
+    .navbar-toggler {
+        margin-right: 1em;
+    }
+    
+    /*---------- First Section ----------*/
+    #firstSecT {
+        margin-top: 1em !important;
+    }
+    
+    #sectText1L {
+        font-size: 25px;
+        line-height: 1.5;
+        font-weight: bold;
+        margin-bottom: 4em;
+    }
+    
+    #sectOneT {
+        font-weight: bolder;
+        font-size: 34px;
+        margin-bottom: 1em;
+        color: white;
+        text-decoration: underline;
+    }
+    
+    .text {
+        color: white;
+        font-size: 20px;
+    }
+    
+    .titleText {
+        font-weight: bold;
+        font-size: 28px;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        background-color: black;
+        color: white;
+        padding-left: 0.6em;
+        padding-right: 0.6em;
+        padding-bottom: 0.1em;
+        border-radius: 40px 10px 40px 10px;
+    }
+    
+    #s1border {
+        background-color: rgba(0, 0, 0, 0.65);
+        border-radius: 10px;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+    
+    /*---------- Modal Section ----------*/
+    .modal-backdrop {
+        z-index: -1 !important;
+    }
+    
+    #expertSupport {
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+    }
+    
+    .supportFormc {
+        margin-bottom: 1em;
+    }
+    
+    .modal-footer {
+        justify-content: center !important;
+    }
+    
+    #expertSTxt {
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-top: 2em;
+    }
+    
+    #espForm {
+        border: 0px !important;
+        padding: 1em !important;
+    }
+    
+    .modal-body {
+        padding-top: 0 !important;
+    }
+    
+    #consultModal {
+        padding-top: 3em !important;
+        padding-bottom: 3em !important;
+        padding-left: 2em !important;
+        padding-right: 2em !important;
+    }
+    
+    .datepicker-dropdown {
+        background-color: black !important;
+        color: white !important;
+        border: 1px solid white !important;
+        padding: 1em !important;
+        text-align: center !important;
+        cursor: pointer !important;
+    }
+    
+    .datepicker {
+        text-align: center;
+    }
+    
+    .datepicker-days table tbody tr td {
+        padding: 0.3em !important;
+    }
+    
+    .datepicker-days table tbody tr td:hover {
+        text-shadow: 0 0 10px white;
+    }
+    
+    /*---------- Announcement ----------*/
+    #aSec {
+        padding: 6em;
+        height: auto;
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-image: url('/assets/images/ricardo-gomez-angel-9AdeEdYB2yk-unsplash.jpg');
+    }
+    
+    #ann {
+        text-align: center;
+        color: black;
+        background-color: aliceblue;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 0.5em;
+    }
+    
+    #annP {
+        color: black;
+        background-color: aliceblue;
+        padding: 1em !important;
+    }
+    
+    #ann-img {
+        box-shadow: -25px 25px rgb(121, 121, 121);
+        border: 1px solid white;
+        width: 450px;
+        height: auto;
+    }
+    
+    /*---------- Second Section ----------*/
+    #secondSect {
+        padding-top: 24em;
+        height: 1460px;
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-image: url('/assets/images/paperb2.jpg');
+    }
+    
+    .secondText {
+        color: white;
+        font-size: 18px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    
+    #secondR {
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+        margin-top: 0px;
+    }
+    
+    #secondRR {
+        background-color: rgba(0, 0, 0, 0.90);
+        border: 1px solid rgb(0, 0, 0);
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.575)!important;
+        padding: 3em;
+        height: 350px;
+        width: 359px !important;
+    }
+    
+    #srImg {
+        border: 1px solid black;
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.575)!important;
+        width: auto;
+        height: 250px;
+        display: none;
+    }
+    
+    #secondSTitle {
+    
+    }
+    
+    #secondR2 {
+        margin-top: 0px !important;
+    }
+    
+    .pillar {
+        padding-top: 1em;
+        padding-left: 2em;
+    }
+    
+    .pillarText {
+        color: white;
+        font-size: 28px;
+        padding-left: 0.75em;
+    }
+    
+    #cardsMobile {
+        display: inline-block  !important;
+    }
+    
+    /*---------- Third Section ----------*/
+    #thirdSect {
+        padding: 1em;
+        height: auto;
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-image: url('/assets/images/1682038.jpg');
+    }
+    
+    #thirdTi {
+        color: white;
+        text-align: center;
+        font-size: 44px;
+        padding-top: 0.5em;
+        font-weight: bold;
+        padding-bottom: 0.5em;
+    }
+    
+    #thirdT {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    #thirdP {
+        text-indent: 2em;
+    }
+    
+    #thirdR {
+        padding-top: 42em;
+        padding-bottom: 2em;
+    }
+    
+    #sect3picMobile {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    
+    /*---------- Fourth Section ----------*/
+    #fourthSect {
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-image: url('/assets/images/abstract-white-pattern-cube-square-minimalism-1924615-wallhere.com.jpg');
+        padding-bottom: 1em;
+    }
+    
+    #fourthR {
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 2em;
+        justify-content: center !important;
+    }
+    
+    #fourthR2 {
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        background-color: rgba(0, 0, 0, 0.90);
+        border: 1px solid rgb(0, 0, 0);
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.575)!important;
+    }
+    
+    .fourthT {
+        font-size: 18px;
+    }
+    
+    .fourthQ {
+        font-weight: bold;
+        color: white;
+        list-style-type: "»  ";
+    }
+    
+    .fourthA {
+        font-weight: normal;
+        margin-top: 1em;
+        color: white;
+        list-style-type: "-  ";
+    }
+    
+    #faqTitle {
+        margin-top: 2em;
+        text-align: center;
+    }
+    
+    /*---------- Card Section ----------*/
+    .img-shadow {
+        box-shadow: 25px 25px rgba(255, 255, 255, 0.85);
+        border: 1px solid white;
+        width: 300px;
+        height: auto;
+    }
+    
+    .img-shadow-faq {
+        box-shadow: 15px 15px 5px rgba(82, 82, 82, 1);
+    }
+    
+    .card-img-top {
+        padding-top: 2em;
+        width: 100px !important;
+        height: auto;
+    }
+    
+    .card-text {
+        font-size: 18px;
+        padding-left: 2em;
+        padding-right: 2em;
+        color: white;
+        text-align: center;
+    }
+    
+    /*#footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1em;
+    }*/
+    
+    .card {
+        border-radius: 0px !important;
+        background-image: url("/assets/images/milad-fakurian-VbC-EiOTDqA-unsplash.jpg") !important;
+        box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+          transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+        background-image: linear-gradient(180deg, rgb(32, 32, 32), rgb(255, 255, 255));
+        width: auto;
+        height: auto;
+        margin: 1em;
+        border: 1px solid white !important;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    
+    .card:hover{
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+        /*background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(32, 32, 32));
+        color: white;*/
+        box-shadow: 0 1rem 3rem rgba(41, 40, 40, 0.875)!important;
+    }
+    
+    /* --------------- Section 9 --------------- */
+    #s9 {
+    }
+    
+    #s9Bg {
+        background-color: rgb(30,30,30);
+        -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+        box-shadow: 0px -4px 9px rgba(50, 50, 50, 0.75);
+    }
+    
+    #s9Title {
+        font-weight: bold;
+        margin-bottom: 3em;
+        font-size: 20px;
+    }
+    
+    #s9Text {
+        text-align: center;
+        color: white;
+        padding-top: 4em;
+        padding-bottom: 3em;
+        width: auto;
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    
+    /* --------------- Footer --------------- */
+    #tFooter {
+        -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+        box-shadow: 0px -4px 9px rgba(50, 50, 50, 0.75);
+    }
+    
+    #footer {
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+    
+    #footerLink:hover {
+        text-decoration: none !important;
+    }
+    
+    .footerImg {
+        width: 20px;
+        height: 20px;
+        object-fit: cover;
+    }
+    
+    .address {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    
+    #addTitle {
+        padding-bottom: 1em;
+    }
+    
+    #contactInfo {
+        color: white;
+        padding-top: 1em;
+        background-color: black;
+    }
+    
+    #fAlign {
+        padding-top: 1.25em;
+    }
+    
+    /* --------------- Privacy --------------- */
+    #s8pp {
+        background: rgb(30,30,30);
+        padding-left: 8em;
+        padding-right: 8em;
+    }
+    
+    .ppSection {
+        color: white;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    #ppSectionTitle {
+        font-size: 44px;
+        font-variant: small-caps;
+        padding-bottom: 0.5em;
+        padding-top: 0.25em;
+    }
+    
+    .ppp {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    /* --------------- Contact --------------- */
+    #contLeft {
+        color: white;
+        text-align: center;
+    }
+    
+    #contactTitle {
+        color: white;
+        font-size: 32px;
+    }
+    
+    form {
+        border: 1px solid white;
+        padding: 4em;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    .form-group {
+        padding: 1em;
+    }
+    
+    #contBtnDiv {
+        text-align: center;
+        margin-top: 2em;
+    }
+    
+    #contBtn {
+        background-color: white;
+        color: black;
+        border: 1px solid white;
+    }
+    
+    #contBtn:hover {
+        background-color: black;
+        color: white;
+    }
+    
+    #formCont {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        margin-top: 6em;
+        margin-bottom: 6em;
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
 }
