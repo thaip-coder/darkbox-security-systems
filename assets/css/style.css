@@ -53,7 +53,7 @@ body {
 
 .navbar-nav {
     margin-left: auto !important;
-    margin-right: 4em;
+
 }
 
 nav {
@@ -62,11 +62,50 @@ nav {
 
 .nav-link {
     color: white !important;
-    font-size: 20px !important;
+    font-size: 16px !important;
+}
+
+.nav-item {
+    margin-right: 1em !important;
+    margin-left: 1em !important;
+    text-align: center !important;
 }
 
 .nav-link:hover {
     text-shadow: 0 0 3px white;
+}
+
+.navbar-collapse {
+    text-align: center !important;
+}
+
+.navbar-toggler {
+    background-color: rgb(44, 44, 44) !important;
+}
+
+#contactBtn {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+}
+
+#contactBtn:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.dropdown-menu {
+    background-color: black !important;
+    border: 1px solid white !important;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background-color: rgb(36, 36, 36) !important;
 }
 
 /*---------- First Section ----------*/
@@ -184,7 +223,7 @@ nav {
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-image: url('/darkbox-security-systems/assets/images/ricardo-gomez-angel-9AdeEdYB2yk-unsplash.jpg');
+    background-image: url('/assets/images/ricardo-gomez-angel-9AdeEdYB2yk-unsplash.jpg');
 }
 
 #ann {
@@ -216,7 +255,7 @@ nav {
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-image: url('/darkbox-security-systems/assets/images/paperb2.jpg');
+    background-image: url('/assets/images/paperb2.jpg');
 }
 
 .secondText {
@@ -275,7 +314,7 @@ nav {
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-image: url('/darkbox-security-systems/assets/images/1682038.jpg');
+    background-image: url('/assets/images/1682038.jpg');
 }
 
 #thirdTi {
@@ -305,7 +344,7 @@ nav {
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-image: url('/darkbox-security-systems/assets/images/abstract-white-pattern-cube-square-minimalism-1924615-wallhere.com.jpg');
+    background-image: url('/assets/images/abstract-white-pattern-cube-square-minimalism-1924615-wallhere.com.jpg');
     padding-bottom: 4em;
 }
 
@@ -381,7 +420,7 @@ nav {
 
 .card {
     border-radius: 0px !important;
-    background-image: url("/darkbox-security-systems/assets/images/milad-fakurian-VbC-EiOTDqA-unsplash.jpg") !important;
+    background-image: url("/assets/images/milad-fakurian-VbC-EiOTDqA-unsplash.jpg") !important;
     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
       transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
     background-image: linear-gradient(180deg, rgb(32, 32, 32), rgb(255, 255, 255));
@@ -391,6 +430,7 @@ nav {
     border: 1px solid white !important;
     padding-top: 1em;
     padding-bottom: 1em;
+    text-decoration: none !important;
 }
 
 .card:hover{
@@ -399,6 +439,7 @@ nav {
     /*background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(32, 32, 32));
     color: white;*/
     box-shadow: 0 1rem 3rem rgba(41, 40, 40, 0.875)!important;
+    cursor: pointer;
 }
 
 /* --------------- Section 9 --------------- */
@@ -407,9 +448,10 @@ nav {
 
 #s9Bg {
     background-color: rgb(30,30,30);
+    /*
     -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
-    box-shadow: 0px -4px 9px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px -4px 9px rgba(50, 50, 50, 0.75);*/
 }
 
 #s9Title {
@@ -426,11 +468,11 @@ nav {
 }
 
 /* --------------- Footer --------------- */
-#tFooter {
+/*#tFooter {
     -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
     box-shadow: 0px -4px 9px rgba(50, 50, 50, 0.75);
-}
+}*/
 
 #footer {
     text-align: center;
@@ -530,16 +572,78 @@ form {
 }
 
 #formCont {
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    margin-top: 6em;
-    margin-bottom: 6em;
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 
 .moriarty {
     display: none;
+}
+
+/*---------- Incidence Response ----------*/
+.pContent {
+    padding-bottom: 6em;
+}
+
+#ir1 {
+    height: 40em !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-image: linear-gradient(rgba(54, 54, 54, 0.5), rgba(54, 54, 54, 0.5)), url("/assets/images/john-schnobrich-2FPjlAyMQTA-unsplash.jpg");
+}
+
+#th1 {
+    height: 40em !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-image: linear-gradient(rgba(54, 54, 54, 0.5), rgba(54, 54, 54, 0.5)), url("/assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg");
+}
+
+#df1 {
+    height: 40em !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-image: linear-gradient(rgba(54, 54, 54, 0.5), rgba(54, 54, 54, 0.5)), url("/assets/images/adi-goldstein-EUsVwEOsblE-unsplash.jpg");
+}
+
+#pen1 {
+    height: 40em !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-image: linear-gradient(rgba(54, 54, 54, 0.5), rgba(54, 54, 54, 0.5)), url("/assets/images/luca-bravo-XJXWbfSo2f0-unsplash.jpg");
+}
+
+#abt1 {
+    height: 40em !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-image: linear-gradient(rgba(54, 54, 54, 0.5), rgba(54, 54, 54, 0.5)), url("/assets/images/guerrillabuzz-crypto-pr-R2HtYWs5-QA-unsplash.jpg");
+}
+
+.pTitle {
+    color: white;
+    font-size: 72px;
+    font-family: 'Iceland', cursive !important;
+    text-align: center !important;
+}
+
+.pSubTitle {
+    padding-top: 2em;
+    color: white;
+    font-size: 36px;
+    text-decoration: underline;
+    width: 50% !important;
+}
+
+.pSubText {
+    color: white;
+    font-size: 22px;
+    width: 50% !important;
 }
 
 /* Samsung Galaxy */
@@ -732,7 +836,7 @@ form {
           background-position: center !important;
           background-size: cover !important;
           background-repeat: no-repeat !important;
-          background-image: url('/darkbox-security-systems/assets/images/ricardo-gomez-angel-9AdeEdYB2yk-unsplash.jpg');
+          background-image: url('/assets/images/ricardo-gomez-angel-9AdeEdYB2yk-unsplash.jpg');
       }
       
       #ann {
@@ -764,7 +868,7 @@ form {
           background-position: center !important;
           background-size: cover !important;
           background-repeat: no-repeat !important;
-          background-image: url('/darkbox-security-systems/assets/images/paperb2.jpg');
+          background-image: url('/assets/images/paperb2.jpg');
       }
       
       .secondText {
@@ -829,7 +933,7 @@ form {
           background-position: center !important;
           background-size: cover !important;
           background-repeat: no-repeat !important;
-          background-image: url('/darkbox-security-systems/assets/images/1682038.jpg');
+          background-image: url('/assets/images/1682038.jpg');
       }
       
       #thirdTi {
@@ -865,7 +969,7 @@ form {
           background-position: center !important;
           background-size: cover !important;
           background-repeat: no-repeat !important;
-          background-image: url('/darkbox-security-systems/assets/images/abstract-white-pattern-cube-square-minimalism-1924615-wallhere.com.jpg');
+          background-image: url('/assets/images/abstract-white-pattern-cube-square-minimalism-1924615-wallhere.com.jpg');
           padding-bottom: 1em;
       }
       
@@ -943,7 +1047,7 @@ form {
       
       .card {
           border-radius: 0px !important;
-          background-image: url("/darkbox-security-systems/assets/images/milad-fakurian-VbC-EiOTDqA-unsplash.jpg") !important;
+          background-image: url("/assets/images/milad-fakurian-VbC-EiOTDqA-unsplash.jpg") !important;
           box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
             transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
           background-image: linear-gradient(180deg, rgb(32, 32, 32), rgb(255, 255, 255));
@@ -1297,7 +1401,7 @@ form {
           background-position: center !important;
           background-size: cover !important;
           background-repeat: no-repeat !important;
-          background-image: url('/darkbox-security-systems/assets/images/ricardo-gomez-angel-9AdeEdYB2yk-unsplash.jpg');
+          background-image: url('/assets/images/ricardo-gomez-angel-9AdeEdYB2yk-unsplash.jpg');
       }
       
       #ann {
@@ -1329,7 +1433,7 @@ form {
           background-position: center !important;
           background-size: cover !important;
           background-repeat: no-repeat !important;
-          background-image: url('/darkbox-security-systems/assets/images/paperb2.jpg');
+          background-image: url('/assets/images/paperb2.jpg');
       }
       
       .secondText {
@@ -1394,7 +1498,7 @@ form {
           background-position: center !important;
           background-size: cover !important;
           background-repeat: no-repeat !important;
-          background-image: url('/darkbox-security-systems/assets/images/1682038.jpg');
+          background-image: url('/assets/images/1682038.jpg');
       }
       
       #thirdTi {
@@ -1430,7 +1534,7 @@ form {
           background-position: center !important;
           background-size: cover !important;
           background-repeat: no-repeat !important;
-          background-image: url('/darkbox-security-systems/assets/images/abstract-white-pattern-cube-square-minimalism-1924615-wallhere.com.jpg');
+          background-image: url('/assets/images/abstract-white-pattern-cube-square-minimalism-1924615-wallhere.com.jpg');
           padding-bottom: 1em;
       }
       
@@ -1508,7 +1612,7 @@ form {
       
       .card {
           border-radius: 0px !important;
-          background-image: url("/darkbox-security-systems/assets/images/milad-fakurian-VbC-EiOTDqA-unsplash.jpg") !important;
+          background-image: url("/assets/images/milad-fakurian-VbC-EiOTDqA-unsplash.jpg") !important;
           box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
             transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
           background-image: linear-gradient(180deg, rgb(32, 32, 32), rgb(255, 255, 255));
@@ -1861,7 +1965,7 @@ form {
         background-position: center !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
-        background-image: url('/darkbox-security-systems/assets/images/ricardo-gomez-angel-9AdeEdYB2yk-unsplash.jpg');
+        background-image: url('/assets/images/ricardo-gomez-angel-9AdeEdYB2yk-unsplash.jpg');
     }
     
     #ann {
@@ -1893,7 +1997,7 @@ form {
         background-position: center !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
-        background-image: url('/darkbox-security-systems/assets/images/paperb2.jpg');
+        background-image: url('/assets/images/paperb2.jpg');
     }
     
     .secondText {
@@ -1958,7 +2062,7 @@ form {
         background-position: center !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
-        background-image: url('/darkbox-security-systems/assets/images/1682038.jpg');
+        background-image: url('/assets/images/1682038.jpg');
     }
     
     #thirdTi {
@@ -1994,7 +2098,7 @@ form {
         background-position: center !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
-        background-image: url('/darkbox-security-systems/assets/images/abstract-white-pattern-cube-square-minimalism-1924615-wallhere.com.jpg');
+        background-image: url('/assets/images/abstract-white-pattern-cube-square-minimalism-1924615-wallhere.com.jpg');
         padding-bottom: 1em;
     }
     
@@ -2072,7 +2176,7 @@ form {
     
     .card {
         border-radius: 0px !important;
-        background-image: url("/darkbox-security-systems/assets/images/milad-fakurian-VbC-EiOTDqA-unsplash.jpg") !important;
+        background-image: url("/assets/images/milad-fakurian-VbC-EiOTDqA-unsplash.jpg") !important;
         box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
           transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
         background-image: linear-gradient(180deg, rgb(32, 32, 32), rgb(255, 255, 255));
